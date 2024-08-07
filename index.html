@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleSheet" href="./index.css" />
+    <title>Namaste React</title>
+</head>
+
+<body>
+    <div id="header">
+        <!-- this heading will be replaced due to root.render -->
+        <h1>Prajeesh is here</h1>
+    </div>
+    <div id="root">
+        <!-- this heading will be replaced due to root.render -->
+        <h1>Prajeesh is here</h1>
+    </div>
+    <!-- <script>
+        const heading = document.createElement('h1');
+        heading.innerHTML = "Hello World! from Javascript";
+        const rootid = document.getElementById("root");
+        rootid.appendChild(heading);
+    </script> -->
+    <!-- <script src="./App.js"></script> Order of file matters if we give this script tag here rather than below it will throw an error React is not defined -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="./App.js"></script>
+</body>
+
+</html>
